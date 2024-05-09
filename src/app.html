@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="%sveltekit.assets%/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    %sveltekit.head%
+    <title>Private-Key-Range-Calc</title>
+    <style>
+        body {
+            font-family: DejaVu Sans Mono, roboto, Arial, sans-serif;
+            background-color: #069D97;
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='760' preserveAspectRatio='none' viewBox='0 0 1440 760'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1151%26quot%3b)' fill='none'%3e%3crect width='1440' height='760' x='0' y='0' fill='rgba(16%2c 213%2c 205%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c651.719C122.046%2c652.422%2c156.288%2c468.909%2c259.989%2c404.551C366.384%2c338.521%2c533.426%2c379.052%2c604.959%2c276.276C675.474%2c174.962%2c638.014%2c31.478%2c601.782%2c-86.523C568.801%2c-193.937%2c493.36%2c-279.736%2c410.824%2c-355.981C335.358%2c-425.695%2c247.619%2c-478.746%2c148.387%2c-505.358C50.801%2c-531.529%2c-49.015%2c-523.19%2c-148.576%2c-506.002C-259.395%2c-486.871%2c-392.879%2c-489.004%2c-461.673%2c-400.042C-530.577%2c-310.938%2c-473.64%2c-181.829%2c-485.847%2c-69.854C-497.5%2c37.041%2c-578.537%2c146.026%2c-531.757%2c242.845C-484.928%2c339.765%2c-343.402%2c335.955%2c-258.071%2c401.567C-161.133%2c476.104%2c-122.279%2c651.015%2c0%2c651.719' fill='%230eb7b0'%3e%3c/path%3e%3cpath d='M1440 1231.224C1550.499 1236.853 1663.858 1311.421 1763.596 1263.526 1863.991 1215.315 1918.5230000000001 1098.3519999999999 1942.963 989.696 1965.2930000000001 890.424 1907.039 795.642 1891.4569999999999 695.09 1876.099 595.984 1905.28 487.957 1852.04 402.966 1795.891 313.331 1698.8310000000001 253.909 1597.056 225.11800000000005 1495.811 196.47699999999998 1387.399 208.02499999999998 1288.342 243.5 1192.875 277.689 1121.995 350.781 1049.16 421.335 969.5219999999999 498.478 849.079 563.516 843.654 674.258 838.171 786.174 971.069 851.165 1023.246 950.325 1071.309 1041.667 1051.3319999999999 1173.911 1136.921 1231.6 1222.427 1289.232 1337.019 1225.978 1440 1231.224' fill='%2318eee5'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1151'%3e%3crect width='1440' height='760' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: rgb(46, 46, 46);
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        input {
+            font-family: DejaVu Sans Mono;
+            font-size: 16px;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background: rgba(255, 255, 255, 0);
+            border-radius: 8px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4.2px);
+            -webkit-backdrop-filter: blur(4.2px);
+            border: 1px solid rgba(255, 255, 255, 0.13);
+            text-align: center;
+        }
+
+        input::placeholder {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body data-sveltekit-preload-data="hover">
+<div style="display: contents">%sveltekit.body%</div>
+</body>
+</html>
