@@ -1,38 +1,31 @@
-# create-svelte
+# Bitcoin Private Key Range Calculator
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+![Bitcoin Private Key Range Calculator](https://www.filiphelikar.cz/img/key_range.png "Bitcoin Private Key Range Calculator")
 
-## Creating a project
+This project is a calculator for computing the range of private keys for a Bitcoin puzzle and calculating the speed of a brute-force attack. The application was created using HTML, CSS, JavaScript, and Svelte. This project demonstrates my skills in cryptography and creating user-friendly interfaces.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Project Overview
+
+This application allows users to input parameters related to Bitcoin private keys and view calculations related to potential key ranges and brute-force attack speeds. It serves as a practical demonstration of cryptographic concepts and efficient UI/UX design.
+
+## Features
+
+- Compute ranges of Bitcoin private keys.
+- Calculate brute-force attack speeds.
+- User-friendly interface designed with Svelte.
+- Real-time calculation updates based on user input.
+
+## Getting Started
+
+This project was generated using [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte), providing all the necessary tools to develop and build a Svelte application.
+
+### Creating a Project
+
+To create a new Svelte project, use the following command:
 
 ```bash
-# create a new project in the current directory
+# Create a new project in the current directory
 npm create svelte@latest
 
-# create a new project in my-app
+# Create a new project in a specific directory
 npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
